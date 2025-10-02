@@ -10,7 +10,7 @@ from langchain_community.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 
 # model and tokenizer loading
-checkpoint = "LaMini-T5-738M"
+checkpoint = "MBZUAI/LaMini-T5-738M"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 base_model = AutoModelForSeq2SeqLM.from_pretrained(
     checkpoint, 
@@ -80,3 +80,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
