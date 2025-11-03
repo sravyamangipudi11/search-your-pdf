@@ -1,4 +1,4 @@
-langchain_community
+langchain-community
 langchain==0.1.17
 streamlit
 transformers
@@ -12,3 +12,4 @@ bs4
 sentence_transformers
 chromadb
 safetensors
+
