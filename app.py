@@ -7,7 +7,7 @@ import textwrap
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_community.llms import HuggingFacePipeline
-from langchain.chains.retrieval_qa.base import RetrievalQA
+from langchain.chains import RetrievalQA
 
 # model and tokenizer loading
 checkpoint = "MBZUAI/LaMini-T5-738M"
@@ -80,6 +80,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
