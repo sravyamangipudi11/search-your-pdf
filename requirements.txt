@@ -1,6 +1,6 @@
-langchain-community
-langchain==0.1.17
 streamlit
+langchain==0.1.17
+langchain-community
 transformers
 requests
 torch
@@ -8,8 +8,7 @@ einops
 accelerate
 bitsandbytes
 pdfminer.six
-bs4
-sentence_transformers
+beautifulsoup4
+sentence-transformers
 chromadb
 safetensors
-
