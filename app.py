@@ -8,6 +8,12 @@ from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_community.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
+from langchain.document_loaders import PyPDFLoader
+from langchain.vectorstores import FAISS
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.llms import HuggingFaceHub
+
 
 warnings.filterwarnings("ignore", message="`torch_dtype` is deprecated")
 os.makedirs("db", exist_ok=True)
@@ -69,4 +75,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
