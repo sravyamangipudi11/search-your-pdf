@@ -1,5 +1,5 @@
 langchain_community
-langchain
+langchain==0.1.17
 streamlit
 transformers
 requests
